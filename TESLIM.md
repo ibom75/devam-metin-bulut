@@ -87,3 +87,4 @@ Betiğin son satırındaki `eksik 270`, bu 10 konu dışındaki 90 konunun kayı
 |---|---|---|---|---|---|
 | 01 | konular_01 satır 58–77: s2_g71_mate … s2_g78_türk (20 konu) | 60 | 60 / 0 / 0 | 21:30 | ilk kendi_kontrol koşusunda 60/60 (yeniden koşu gerekmedi). Betiğin `eksik 240`'ı dosyadaki diğer 80 konu. |
 | 02 | konular_01 satır 78–97: s2_g79_haya … s2_g86_mate (20 konu) | 60 | 60 / 0 / 0 | 21:48 | ilk kendi_kontrol koşusunda 60/60. Betiğin `eksik 240`'ı dosyadaki diğer 80 konu. |
+| 03 | konular_01 satır 98–100 (s2_g86_türk, s2_g87_haya, s2_g87_mate) + konular_02 satır 1–17 (s2_g87_türk … s2_g93_haya) (20 konu) | 60 | 60 / 0 / 0 | 22:05 | İki koşu: `…_03.jsonl girdi/konular_01.jsonl` → gecen 9 · kalan 51 (51'in hepsi "anahtar girdide yok" = konular_02 kayıtları); `…_03.jsonl girdi/konular_02.jsonl` → gecen 51 · kalan 9 (9'u da "anahtar girdide yok" = konular_01 kayıtları). Parçanın 60 kaydı için: 60 geçen, 0 kalan, 0 eksik. |
