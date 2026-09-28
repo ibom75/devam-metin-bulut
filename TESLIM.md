@@ -70,7 +70,7 @@ Betiğin son satırındaki `eksik 270`, bu 10 konu dışındaki 90 konunun kayı
 - Kalıp tekrar: bütün d3 kayıtları "Bu videoda … tekrar edeceğiz", "Pekiştirme sorusu bir/iki/üç:", "Kısaca özetlersek …" kalıbıyla açılıyor.
   Kayıt içinde DK2 geçti, ama kayıtlar arası benzerlik ölçülmedi.
 - Aynı konu iki kez (g68/g69 haya, mate, türk; g70/g71 haya): içerik farklı ana metne göre ayrıştırıldı, ama
-  "elli eksi yirmi üç = yirmi yedi" örneği s2_g69_mate d2 ve d3'te, "Karadeniz/Akdeniz/Ege/Marmara" bilgisi s2_g70_haya d1, d2 ve d3.te tekrarlanıyor.
+  "elli eksi yirmi üç = yirmi yedi" örneği s2_g69_mate d2 ve d3'te, "Karadeniz/Akdeniz/Ege/Marmara" bilgisi s2_g70_haya d1, d2 ve d3'te tekrarlanıyor.
 - s2_g69_mate d2 sahne 4: "yirmi beş eksi yedi" iki basamaklıdan tek basamaklı çıkarma; konu başlığı "iki basamaklı". Matematik doğru, kapsam tartışmalı.
 - Matematik örneklerinin hepsi elle kontrol edildi (ör. 43−17=26, 62−27=35, 73−39=34, 38+25=63, 65+19=84); otomatik doğrulama yok.
 - Pilot 1'deki bilinen kusur ("kimseyi öne geçmeden", s2_g50_haya d3) bu görevin kapsamı dışında, olduğu gibi duruyor.
