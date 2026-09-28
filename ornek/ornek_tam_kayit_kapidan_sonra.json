@@ -1,0 +1,32 @@
+{
+ "anahtar": "s2_g1_haya",
+ "tur": "d1",
+ "sahne": [
+  "Kendi isim kartını parmağınla gösterip adını ve soyadını yüksek sesle söyleyerek kendini tanıdığını duyur. Adın seni çağıran sözdür soyadın ise ailene bağlayan ikinci addır ve ikisi birlikte durur. Kartı masanın üstüne düzgün koyup harflerini kendi ağzınla bir kez daha yavaşça oku. Bu söyleme kendimi tanıyorum işini dile indirir ve adını çocuğun kulağına kilitler.",
+  "Yaşını parmaklarınla gösterip kaç kere doğum günü kutladığını kendi cümlelerinle sakin ve net anlat. Parmak sayısı yaşını görünür kılar çünkü her parmak bir yılı avuçta taşır ve saklamaz. Doğum günün seni takvime bağlayan gündür ve o gün adınla birlikte yüksek sesle söylenir. Bu gösterme kimlik bilgisini ele indirir ve kendimi tanıyorum işini görünür kılar.",
+  "Mutlu yüz kartını gülümseyen resimle eşle çünkü bu duygu içinin açıldığını ve yüzünün ısındığını gösterir. Üzgün yüz kartını eğilen ağız resmiyle bağla zira bu duygu içinin daraldığını kulağa indirir. Heyecanlı yüz kartını parlayan göz resmiyle yan yana koy çünkü bu duygu bekleyişi titretir. Bu üç eşleme duygularımı avuca indirir ve her duyguyu kendi yüzüne kilitler.",
+  "Sevdiğin üç şeyi yüksek sesle söyleyerek sevdiğim şeyler listesini kendi dilinle sırayla aç. Resim yapmak bir çocuğun sevdiği iş olabilir oysa başka çocuk top oynamayı seçer. Sevdiğin yemeği de ekle çünkü damak da seni anlatır ve sofrada görünür hale gelir. Bu söyleme kendimi tanıyorum işini dile bağlar ve sevdiğim şeyleri kulağa indirir.",
+  "Ben kartını kendi resminle eşle çünkü kendimi tanıyorum işi başkasının yüzüne değil senin yüzüne aittir. Arkadaş kartını onun adına bağla zira her çocuğun ayrı bir ismi ve ayrı bir gülüşü vardır. Kartları karıştırırsan tanışma bozulur o yüzden her adı kendi yüzüne usulca kilitlersin. Bu eşleme pekiştirmeyi avuca indirir ve kendini başkasından sakin biçimde ayırmayı öğretir.",
+  "Gözlerini kapatıp adını yaşını sevdiğin bir şeyi ve bugünkü duygunu kendi cümlelerinle sırayla anlat. Duygularımı unutursan tanışma yarım kalır o yüzden mutlu üzgün veya heyecanlı olduğunu içeride tamamla. Sevdiğim şeyler listesinden birini fısıldamak okunanı geri vermenin net ve sağlam yoludur. Bu iç anlatım kendimi tanıyorum işini göze indirmeden kulağa kilitler ve bellekte tutar."
+ ],
+ "konu": "Kendimi Tanıyorum: İsim, Yaş, Sevdiğim Şeyler, Duygularım",
+ "kalite": {
+  "anahtar": "s2_g1_haya",
+  "tur": "d1",
+  "cumle": 24,
+  "dolgu_cumle": 0,
+  "dolgu_orani_%": 0.0,
+  "DK1": true,
+  "birebir_tekrar": 0,
+  "en_yuksek_ortusme_%": 29.3,
+  "DK2": true,
+  "konu_anahtari_tutan": 5,
+  "DK3": true,
+  "en_az_sahne_sozcugu": 52,
+  "DK4": true,
+  "hece": 804,
+  "DK5": true,
+  "gecti": true
+ },
+ "sebep": []
+}
