@@ -75,3 +75,13 @@ Betiğin son satırındaki `eksik 270`, bu 10 konu dışındaki 90 konunun kayı
 - Matematik örneklerinin hepsi elle kontrol edildi (ör. 43−17=26, 62−27=35, 73−39=34, 38+25=63, 65+19=84); otomatik doğrulama yok.
 - Pilot 1'deki bilinen kusur ("kimseyi öne geçmeden", s2_g50_haya d3) bu görevin kapsamı dışında, olduğu gibi duruyor.
 - Bu kontrol yalnız biçim kontrolüdür; olgu ve altyazı kapılarından geçmedi.
+
+---
+
+# TAM KOŞU (BULUT_TAM_KOSU.md)
+
+- Adım 0 (2026-09-28 21:13 UTC): s2_g69_haya d1 sahne 6 son cümle uzatıldı ("…balıklara, bitkilere ve öteki canlılara…").
+  `kendi_kontrol.py cikti/devam_metin_bulut_pilot10.jsonl girdi/konular_01.jsonl` → gecen 30 · kalan 0 (pilot10'un 30 kaydı).
+
+| parça | konu aralığı | yazılan kayıt | gecen / kalan / eksik | saat (UTC) | not |
+|---|---|---|---|---|---|
