@@ -53,7 +53,7 @@ Betiğin son satırındaki `eksik 270`, bu 10 konu dışındaki 90 konunun kayı
 1. Koşu 1 (20:59:05): gecen 1 · kalan 29. Neden: ~130 cümle 8–11 sözcük (alt sınır 12); 11 kayıtta DK5 hece < 800
    (en düşük 744); 1 sahne 42 sözcük (< 45). DK1/DK2/DK3 hatası yok.
    Betik kayıt başına yalnız ilk 6 hatayı yazdığı için tüm kısa cümleler kendi basit sayacımla listelendi
-   (`split()` sözcük sayısı + sesli harf sayısı; `kendi_kontrol.py` çalıştırılmadı). 132 cümle elle uzatıldı.
+   (`split()` sözcük sayısı + sesli harf sayısı; `kendi_kontrol.py` çalıştırılmadı). 124 cümle elle uzatıldı (123 + 1).
 2. Koşu 2 = yeniden 1 (21:01:14): gecen 30 · kalan 0.
 3. Koşu 3 = yeniden 2 (21:01:44): 5 dil/içerik düzeltmesinden sonra (aşağıda) gecen 30 · kalan 0 · eksik 0.
 
@@ -70,7 +70,7 @@ Betiğin son satırındaki `eksik 270`, bu 10 konu dışındaki 90 konunun kayı
 - Kalıp tekrar: bütün d3 kayıtları "Bu videoda … tekrar edeceğiz", "Pekiştirme sorusu bir/iki/üç:", "Kısaca özetlersek …" kalıbıyla açılıyor.
   Kayıt içinde DK2 geçti, ama kayıtlar arası benzerlik ölçülmedi.
 - Aynı konu iki kez (g68/g69 haya, mate, türk; g70/g71 haya): içerik farklı ana metne göre ayrıştırıldı, ama
-  "elli eksi yirmi üç = yirmi yedi" örneği s2_g69_mate d2 ve d3'te, "Karadeniz/Akdeniz/Ege/Marmara" bilgisi g70 ve g71'de tekrarlanıyor.
+  "elli eksi yirmi üç = yirmi yedi" örneği s2_g69_mate d2 ve d3'te, "Karadeniz/Akdeniz/Ege/Marmara" bilgisi s2_g70_haya d1, d2 ve d3.te tekrarlanıyor.
 - s2_g69_mate d2 sahne 4: "yirmi beş eksi yedi" iki basamaklıdan tek basamaklı çıkarma; konu başlığı "iki basamaklı". Matematik doğru, kapsam tartışmalı.
 - Matematik örneklerinin hepsi elle kontrol edildi (ör. 43−17=26, 62−27=35, 73−39=34, 38+25=63, 65+19=84); otomatik doğrulama yok.
 - Pilot 1'deki bilinen kusur ("kimseyi öne geçmeden", s2_g50_haya d3) bu görevin kapsamı dışında, olduğu gibi duruyor.
