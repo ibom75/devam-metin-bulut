@@ -15,7 +15,9 @@ import json
 import re
 import sys
 
-SESLI = set('aeıioöuüAEIİOÖUÜâîûÂÎÛ')
+# E-270 DK5 esitlemesi: gercek kapi (devam_kalite_kapi -> konusma_hizi.SESLI) sapkali harfleri saymaz;
+# paket sayiyordu ve daha gevsekti (pilot 2: s2_g69_haya d1 paket 806, gercek 797 -> KALDI). Esik 800 AYNI.
+SESLI = set('aeıioöuüAEIİOÖUÜ')
 DOLGU = re.compile(
     r'^(haydi|hadi|simdi sira sende|şimdi sıra sende|aferin|bravo|harika|'
     r'cok guzel|çok güzel|devam et|basla|başla|dinle|dikkat|hazir misin|'
