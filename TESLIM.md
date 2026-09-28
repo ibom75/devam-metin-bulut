@@ -85,3 +85,4 @@ Betiğin son satırındaki `eksik 270`, bu 10 konu dışındaki 90 konunun kayı
 
 | parça | konu aralığı | yazılan kayıt | gecen / kalan / eksik | saat (UTC) | not |
 |---|---|---|---|---|---|
+| 01 | konular_01 satır 58–77: s2_g71_mate … s2_g78_türk (20 konu) | 60 | 60 / 0 / 0 | 21:30 | ilk kendi_kontrol koşusunda 60/60 (yeniden koşu gerekmedi). Betiğin `eksik 240`'ı dosyadaki diğer 80 konu. |
