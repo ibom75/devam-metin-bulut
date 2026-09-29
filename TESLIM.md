@@ -163,3 +163,4 @@ OTURUM SONU: son konu s2_g144_türk, sıradaki s2_g145_haya (girdi/konular_03.js
 | parça | konu aralığı | yazılan kayıt | gecen / kalan / eksik | saat (UTC) | not |
 |---|---|---|---|---|---|
 | 11 | konular_03 satır 58–77: s2_g145_haya … s2_g152_mate (20 konu) | 60 | 60 / 0 / 0 | 09:49 | ilk kendi_kontrol koşusunda 60/60. Betiğin `eksik 240`'ı dosyadaki diğer 80 konu. Not: girdide g147 yok (g146 → g148). |
+| 12 | konular_03 satır 78–97: s2_g152_türk … s2_g163_mate (20 konu) | 60 | 60 / 0 / 0 | 10:05 | ilk kendi_kontrol koşusunda 60/60. Betiğin `eksik 240`'ı dosyadaki diğer 80 konu. Not: girdide g158 yok. |
