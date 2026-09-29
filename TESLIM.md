@@ -75,3 +75,40 @@ Betiğin son satırındaki `eksik 270`, bu 10 konu dışındaki 90 konunun kayı
 - Matematik örneklerinin hepsi elle kontrol edildi (ör. 43−17=26, 62−27=35, 73−39=34, 38+25=63, 65+19=84); otomatik doğrulama yok.
 - Pilot 1'deki bilinen kusur ("kimseyi öne geçmeden", s2_g50_haya d3) bu görevin kapsamı dışında, olduğu gibi duruyor.
 - Bu kontrol yalnız biçim kontrolüdür; olgu ve altyazı kapılarından geçmedi.
+
+---
+
+# TAM KOŞU (BULUT_TAM_KOSU.md)
+
+- Adım 0 (2026-09-28 21:13 UTC): s2_g69_haya d1 sahne 6 son cümle uzatıldı ("…balıklara, bitkilere ve öteki canlılara…").
+  `kendi_kontrol.py cikti/devam_metin_bulut_pilot10.jsonl girdi/konular_01.jsonl` → gecen 30 · kalan 0 (pilot10'un 30 kaydı).
+
+| parça | konu aralığı | yazılan kayıt | gecen / kalan / eksik | saat (UTC) | not |
+|---|---|---|---|---|---|
+| 01 | konular_01 satır 58–77: s2_g71_mate … s2_g78_türk (20 konu) | 60 | 60 / 0 / 0 | 21:30 | ilk kendi_kontrol koşusunda 60/60 (yeniden koşu gerekmedi). Betiğin `eksik 240`'ı dosyadaki diğer 80 konu. |
+| 02 | konular_01 satır 78–97: s2_g79_haya … s2_g86_mate (20 konu) | 60 | 60 / 0 / 0 | 21:48 | ilk kendi_kontrol koşusunda 60/60. Betiğin `eksik 240`'ı dosyadaki diğer 80 konu. |
+| 03 | konular_01 satır 98–100 (s2_g86_türk, s2_g87_haya, s2_g87_mate) + konular_02 satır 1–17 (s2_g87_türk … s2_g93_haya) (20 konu) | 60 | 60 / 0 / 0 | 22:05 | İki koşu: `…_03.jsonl girdi/konular_01.jsonl` → gecen 9 · kalan 51 (51'in hepsi "anahtar girdide yok" = konular_02 kayıtları); `…_03.jsonl girdi/konular_02.jsonl` → gecen 51 · kalan 9 (9'u da "anahtar girdide yok" = konular_01 kayıtları). Parçanın 60 kaydı için: 60 geçen, 0 kalan, 0 eksik. |
+| 04 | konular_02 satır 18–37: s2_g93_mate … s2_g100_türk (20 konu) | 60 | 60 / 0 / 0 | 22:22 | ilk kendi_kontrol koşusunda 60/60. Betiğin `eksik 240`'ı dosyadaki diğer 80 konu. |
+| 05 | konular_02 satır 38–57: s2_g101_haya … s2_g108_mate (20 konu) | 60 | 60 / 0 / 0 | 22:39 | ilk kendi_kontrol koşusunda 60/60. Betiğin `eksik 240`'ı dosyadaki diğer 80 konu. |
+| **toplam (5 parça)** | 100 konu | **300** | **300 / 0 / 0** | | Tüm `cikti/*.jsonl`: 336 kayıt (pilot 6 + pilot10 30 + 300), (anahtar, tür) tekrarı yok. |
+
+## Tam koşu yöntemi ve notlar
+- Her kayıt önce kendi taslak sayacımla (scratchpad'de; `kendi_kontrol.py` DEĞİL — aynı ölçütleri basitçe sayar:
+  cümle/sahne sayısı, 12–20 sözcük, sahne ≥45 sözcük, hece ≥800 (şapkasız sesli), sahne ortaklığı, DK3, dolgu başı)
+  ölçüldü; kısa cümleler elle uzatıldı. `kendi_kontrol.py` her parçada yalnız bir kez koşuldu ve beş parçanın hepsinde
+  ilk koşuda 60/60 verdi; yeniden koşu hakkı kullanılmadı. Eşikler ve betik değiştirilmedi. KALDI kaydı yok.
+- Kapsam dışı bırakılanlar (BULUT_TAM_KOSU.md'ye göre): konular_01 satır 1–57; `bitti_konular.txt` boş (yalnız yorum satırı).
+- Tek sözcüklü DK3 riski olan konu (`Besinlerimiz`, `Biyoçeşitlilik`) bu 100 konuda yoktu.
+
+## Bilinen riskler (kapıda bakılmalı)
+- Yalnız biçim kontrolü: olgu ve altyazı kapılarından geçmedi.
+- Kalıp tekrar: d1 "Bu alıştırmada …", d3 "Bu kısa tekrarda … / Pekiştirme sorusu bir/iki/üç / Kısaca özetlersek …" kalıbı
+  bütün kayıtlarda aynı. Kayıt içi DK2 geçti; kayıtlar arası benzerlik ölçülmedi. Aynı konunun 3 günlük tekrarında
+  (ör. g101/g102 haya "Tasarruflu kullanma") örnekler kısmen örtüşüyor.
+- Uzatma dolgusu: 12 sözcük alt sınırı için "dikkatle, kolayca, tek tek, birlikte" gibi zarflar sık eklendi; üslup yer yer şişkin.
+- Olgu hassasiyeti olan yerler: acil yardım numarası 112; Türk lirası madeni/kâğıt para değerleri (5/10/25/50 kuruş, 1 lira;
+  5–200 lira); "önce sola bak" (sağdan akan trafik); yıldırım/yüksek ağaç uyarısı; kar oluşumu sadeleştirilerek anlatıldı.
+- Matematik örneklerinin hepsi elle kontrol edildi (toplama/çıkarma/çarpma/bölme); otomatik doğrulama yok.
+- "5N1K" başlıklı kayıtlarda "5N1K" yazımı seslendirmede ("beş en bir ka") sorun çıkarabilir.
+
+OTURUM SONU: son konu s2_g108_mate, sıradaki s2_g108_türk (girdi/konular_02.jsonl satır 58)
