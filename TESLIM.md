@@ -126,3 +126,29 @@ OTURUM SONU: son konu s2_g108_mate, sıradaki s2_g108_türk (girdi/konular_02.js
 | 07 | konular_02 satır 78–97: s2_g115_mate … s2_g122_türk (20 konu) | 60 | 60 / 0 / 0 | 05:33 | ilk kendi_kontrol koşusunda 60/60. Parça öncesi master birleştirmesi `kendi_kontrol.py` DK3'ünü gerçek kapıya eşitledi (anahtar > 3 harf); taslak sayacım da buna uyarlandı, parça 06 yeni betikle de 60/0. |
 | 08 | konular_02 satır 98–100 (s2_g123_haya, s2_g123_mate, s2_g123_türk) + konular_03 satır 1–17 (s2_g124_haya … s2_g130_mate) (20 konu) | 60 | 60 / 0 / 0 | 05:48 | İki koşu: `…_08.jsonl girdi/konular_02.jsonl` → gecen 9 · kalan 51 (51'in hepsi "anahtar girdide yok" = konular_03 kayıtları); `…_08.jsonl girdi/konular_03.jsonl` → gecen 51 · kalan 9 (9'u da "anahtar girdide yok"). Parçanın 60 kaydı: 60 geçen, 0 kalan, 0 eksik. |
 | 09 | konular_03 satır 18–37: s2_g130_türk … s2_g138_haya (20 konu) | 60 | 60 / 0 / 0 | 06:03 | ilk kendi_kontrol koşusunda 60/60. Betiğin `eksik 240`'ı dosyadaki diğer 80 konu. |
+| 10 | konular_03 satır 38–57: s2_g138_mate … s2_g144_türk (20 konu) | 60 | 60 / 0 / 0 | 06:17 | ilk kendi_kontrol koşusunda 60/60. Betiğin `eksik 240`'ı dosyadaki diğer 80 konu. |
+| **toplam (oturum 2, 5 parça)** | 100 konu | **300** | **300 / 0 / 0** | | Tüm `cikti/*.jsonl`: 636 kayıt, (anahtar, tür) tekrarı yok. Son kontrol: 06, 07, 09, 10 güncel `kendi_kontrol.py` ile yeniden 60/0; 08 iki girdiyle 9+51 = 60. |
+
+## Oturum 2 notları
+- Yeniden koşu hakkı hiçbir parçada kullanılmadı; KALDI kaydı yok. Eşikler ve `kendi_kontrol.py` değiştirilmedi
+  (parça 07 öncesi master'dan gelen DK3 eşitlemesi İbrahim'in değişikliği; taslak sayacım ona uyarlandı).
+- Taslak sayacım gerçek eşiklerden biraz sıkı: hece ≥ 830 (kapı 800), sahne benzerliği ≥ %55'te uyarı (kapı %60).
+- Tek sözcüklü DK3 riski olan konu bu 100 konuda yoktu. DK3 için d2 kayıtlarında konu sözcüğü eksik kalan 5 kayda
+  ("Doğa ve çevre — yönümü buluyorum", "Uzunluk: cm tanışma", "Sanatın günlük yaşamdaki yeri", "Alan kavramına …")
+  konu sözcüğü eklendi.
+
+## Bilinen riskler (kapıda bakılmalı)
+- Yalnız biçim kontrolü: olgu ve altyazı kapılarından geçmedi.
+- Kalıp tekrar: d1 "Bu alıştırmada … / Birinci hatayı sayalım … parmağını kaldır", d3 "Bu kısa tekrarda … /
+  Pekiştirme sorusu bir/iki/üç … / Kısaca özetlersek …" kalıbı bütün kayıtlarda aynı; kayıtlar arası benzerlik ölçülmedi.
+  Aynı konunun 3 günlük tekrarında (ör. g143/g144 "Tatilde sorumluluklarım", g113–g115 yön bulma) örnekler kısmen örtüşüyor.
+- Uzatma dolgusu: 12 sözcük alt sınırı için "dikkatle, sırayla, tek tek, kısa ve net" gibi zarflar sık eklendi.
+- Olgu hassasiyeti olan yerler: bilim insanları (Edison: ampulün geliştirilmesi; Bell: telefon; Pasteur: mikroplar ve
+  sütü ısıtma yöntemi; Aziz Sancar: DNA onarımı, Nobel Kimya — yıl yazılmadı); 23 Nisan'ı Atatürk'ün çocuklara
+  armağan etmesi; öğle vakti Güneş'in güneye yakın olması; pil ve ilaç atıklarının özel toplama noktası; yuvarlama kuralı
+  (birler basamağı 5 ve üstü yukarı); yarım saatte kısa kolun iki sayı arasında olması.
+- Sayı sözcükleri ("on iki", "yirmi dört") sözcük sayımında iki sözcük sayılıyor; bazı cümleler bu yüzden kısaltıldı.
+- Matematik örneklerinin hepsi elle kontrol edildi (toplama/çıkarma/çarpma/paylaştırma/tahmin); otomatik doğrulama yok.
+- Noktalama konularında (g113–g115_türk) örnek soru/ünlem cümleleri, cümle bölmeyi bozmamak için "?" ve "!" olmadan yazıldı.
+
+OTURUM SONU: son konu s2_g144_türk, sıradaki s2_g145_haya (girdi/konular_03.jsonl satır 58)
