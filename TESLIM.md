@@ -133,9 +133,9 @@ OTURUM SONU: son konu s2_g108_mate, sıradaki s2_g108_türk (girdi/konular_02.js
 - Yeniden koşu hakkı hiçbir parçada kullanılmadı; KALDI kaydı yok. Eşikler ve `kendi_kontrol.py` değiştirilmedi
   (parça 07 öncesi master'dan gelen DK3 eşitlemesi İbrahim'in değişikliği; taslak sayacım ona uyarlandı).
 - Taslak sayacım gerçek eşiklerden biraz sıkı: hece ≥ 830 (kapı 800), sahne benzerliği ≥ %55'te uyarı (kapı %60).
-- Tek sözcüklü DK3 riski olan konu bu 100 konuda yoktu. DK3 için d2 kayıtlarında konu sözcüğü eksik kalan 5 kayda
-  ("Doğa ve çevre — yönümü buluyorum", "Uzunluk: cm tanışma", "Sanatın günlük yaşamdaki yeri", "Alan kavramına …")
-  konu sözcüğü eklendi.
+- Tek sözcüklü DK3 riski olan konu bu 100 konuda yoktu. Taslak sayacımın DK3 uyarısı veren 8 kayda
+  (s2_g114_haya d2, s2_g115_haya d2, s2_g120_mate d2/d3, s2_g122_mate d2, s2_g129_mate d2, s2_g134_haya d2,
+  s2_g135_haya d2) kendi_kontrol koşusundan önce konu sözcüğü eklendi.
 
 ## Bilinen riskler (kapıda bakılmalı)
 - Yalnız biçim kontrolü: olgu ve altyazı kapılarından geçmedi.
