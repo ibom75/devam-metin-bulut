@@ -40,6 +40,11 @@ def sozcukler(m):
     return re.findall(r'[\wçğıöşüâîû]+', tr_kucuk(m))
 
 
+def gk_sozcukler(m):
+    """Gercek kapinin (Araclar/e264/devam_kalite_kapi.py) sozcuk ayirmasi, birebir."""
+    return re.findall(r'[\wçğıöşüÇĞİÖŞÜ]+', (m or '').lower())
+
+
 def cumleler(m):
     return [c.strip() for c in re.split(r'(?<=[.!?])\s+', (m or '').strip()) if c.strip()]
 
@@ -80,10 +85,12 @@ def denetle(k, konu):
         for b in range(a + 1, len(kume)):
             if kume[a] and kume[b] and 100.0 * len(kume[a] & kume[b]) / min(len(kume[a]), len(kume[b])) >= 60:
                 s.append('DK2 sahne %d ile %d cok benzer (>=%%60)' % (a + 1, b + 1))
-    govde = set(w[:5] for w in sozcukler(' '.join(sahne)))
-    # E-270 DK3 duzeltmesi: 2-3 harfli konu sozcukleri (Öz, Yaz, Hâl) sayilmiyordu (len > 3).
-    # Esik (en az 2 anahtar sozcuk, ilk 5 harf) DEGISMEDI; yalniz sayilan sozcuk kumesi.
-    anahtar = [w for w in sozcukler(konu) if len(w) >= 2 and w not in ISLEV]
+    # E-270 29.09 (Ibrahim: gercek kapida DK3 gevsetilmez): DK3 GERCEK KAPININ (devam_kalite_kapi)
+    # sozcuk ayirmasi ve anahtar kumesiyle (> 3 harf) BIREBIR olculur. 28.09'daki 2-3 harf duzeltmesi
+    # anahtar kumesini buyuttugu icin (daha cok kayit gecirir) geri alindi; yapisal gecilemeyen 12 konunun
+    # adi genisletildi (0 kaldi).
+    govde = set(w[:5] for w in gk_sozcukler(' '.join(sahne)))
+    anahtar = [w for w in gk_sozcukler(konu) if len(w) > 3 and w not in ISLEV]
     if len([w for w in anahtar if w[:5] in govde]) < 2:
         s.append('DK3 konu sozcukleri yetersiz: %s' % anahtar)
     hece = sum(1 for ch in ' '.join(sahne) if ch in SESLI)
