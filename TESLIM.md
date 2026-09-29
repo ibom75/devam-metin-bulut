@@ -152,3 +152,14 @@ OTURUM SONU: son konu s2_g108_mate, sıradaki s2_g108_türk (girdi/konular_02.js
 - Noktalama konularında (g113–g115_türk) örnek soru/ünlem cümleleri, cümle bölmeyi bozmamak için "?" ve "!" olmadan yazıldı.
 
 OTURUM SONU: son konu s2_g144_türk, sıradaki s2_g145_haya (girdi/konular_03.jsonl satır 58)
+
+---
+
+# TAM KOŞU — oturum 3 (29.09.2026, BULUT_TAM_KOSU.md)
+
+- Başlangıç: `git fetch origin master && git merge origin/master` → güncel. Devam noktası: s2_g145_haya (konular_03 satır 58).
+- Yöntem: taslak, `kendi_kontrol.denetle` + daha sıkı uyarılarla (hece < 830, sahne benzerliği ≥ %55) ölçüldü; sonra `kendi_kontrol.py` parça başına koşuldu. Eşikler ve betik değiştirilmedi.
+
+| parça | konu aralığı | yazılan kayıt | gecen / kalan / eksik | saat (UTC) | not |
+|---|---|---|---|---|---|
+| 11 | konular_03 satır 58–77: s2_g145_haya … s2_g152_mate (20 konu) | 60 | 60 / 0 / 0 | 09:49 | ilk kendi_kontrol koşusunda 60/60. Betiğin `eksik 240`'ı dosyadaki diğer 80 konu. Not: girdide g147 yok (g146 → g148). |
