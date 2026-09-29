@@ -189,3 +189,14 @@ OTURUM SONU: son konu s2_g144_türk, sıradaki s2_g145_haya (girdi/konular_03.js
 - Matematik örnekleri elle hesaplandı (toplama/çıkarma/eldeli/ödünçlü, çarpma, bölme-kalan); otomatik doğrulama yok.
 
 OTURUM SONU: son konu s3_g10_haya, sıradaki s3_g10_mate (girdi/konular_04.jsonl satır 58)
+
+---
+
+# TAM KOŞU — oturum 4 · SON TUR (29.09.2026 akşam, BULUT_TAM_KOSU.md)
+
+- Başlangıç: `git fetch origin master && git merge origin/master` → güncel. Devam noktası: s3_g10_mate (konular_04 satır 58).
+- Yöntem: taslak düz metinde yazıldı, `kendi_kontrol.denetle` + sıkı uyarılarla (hece < 830, sahne benzerliği ≥ %55, dolgu başı) ölçülüp düzeltildi; sonra `kendi_kontrol.py` parça başına koşuldu. Eşikler ve betik değiştirilmedi.
+
+| parça | konu aralığı | yazılan kayıt | gecen / kalan / eksik | saat (UTC) | not |
+|---|---|---|---|---|---|
+| 16 | konular_04 satır 58–77: s3_g10_mate … s3_g16_haya (20 konu) | 60 | 60 / 0 / 0 | 18:37 | ilk kendi_kontrol koşusunda 60/60. Betiğin `eksik 240`'ı dosyadaki diğer 80 konu. Girdide s3_g12 yok (g11 → g13); fen anahtarları sonda boşluklu, birebir yazıldı. |
