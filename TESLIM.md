@@ -123,3 +123,4 @@ OTURUM SONU: son konu s2_g108_mate, sıradaki s2_g108_türk (girdi/konular_02.js
 | parça | konu aralığı | yazılan kayıt | gecen / kalan / eksik | saat (UTC) | not |
 |---|---|---|---|---|---|
 | 06 | konular_02 satır 58–77: s2_g108_türk … s2_g115_haya (20 konu) | 60 | 60 / 0 / 0 | 05:18 | ilk kendi_kontrol koşusunda 60/60. Betiğin `eksik 240`'ı dosyadaki diğer 80 konu. |
+| 07 | konular_02 satır 78–97: s2_g115_mate … s2_g122_türk (20 konu) | 60 | 60 / 0 / 0 | 05:33 | ilk kendi_kontrol koşusunda 60/60. Parça öncesi master birleştirmesi `kendi_kontrol.py` DK3'ünü gerçek kapıya eşitledi (anahtar > 3 harf); taslak sayacım da buna uyarlandı, parça 06 yeni betikle de 60/0. |
