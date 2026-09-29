@@ -200,3 +200,4 @@ OTURUM SONU: son konu s3_g10_haya, sıradaki s3_g10_mate (girdi/konular_04.jsonl
 | parça | konu aralığı | yazılan kayıt | gecen / kalan / eksik | saat (UTC) | not |
 |---|---|---|---|---|---|
 | 16 | konular_04 satır 58–77: s3_g10_mate … s3_g16_haya (20 konu) | 60 | 60 / 0 / 0 | 18:37 | ilk kendi_kontrol koşusunda 60/60. Betiğin `eksik 240`'ı dosyadaki diğer 80 konu. Girdide s3_g12 yok (g11 → g13); fen anahtarları sonda boşluklu, birebir yazıldı. |
+| 17 | konular_04 satır 78–97: s3_g16_mate … s3_g22_haya (20 konu) | 60 | 60 / 0 / 0 | 18:52 | ilk kendi_kontrol koşusunda 60/60. Betiğin `eksik 240`'ı dosyadaki diğer 80 konu. Girdide s3_g19 yok (g18 → g20). |
