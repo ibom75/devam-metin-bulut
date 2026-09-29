@@ -3,10 +3,12 @@
 Bu depoda GOREV.md'yi oku ve kurallarına AYNEN uy. Eşikleri ve kendi_kontrol.py'yi değiştirme.
 (kendi_kontrol.py 29.09'da gerçek kapıyla eşitlendi: DK5 sapkalı harfleri saymaz.)
 
-0. ÖNCE: cikti/devam_metin_bulut_pilot10.jsonl içindeki s2_g69_haya d1 kaydı DK5'ten kalıyor (hece 797 < 800).
-   Yalnız o kaydı uzat, kendi_kontrol ile 30/30 yap, commit + push.
+0. HER PARÇADAN ÖNCE: `git fetch origin master && git merge origin/master` (önceki oturumların çıktısı ana dala
+   birleştirilir). TESLIM.md'deki EN SON "OTURUM SONU: ... sıradaki <anahtar>" satırından devam et.
+   cikti/ altında herhangi bir dosyada kaydı olan konuyu TEKRAR YAZMA. (s2_g69_haya d1 düzeltmesi yapıldı.)
 
-1. SIRA: girdi/konular_01.jsonl 58. satırdan başla, dosya bitince konular_02.jsonl, konular_03.jsonl ... sırayla.
+1. SIRA: TESLIM.md'deki "sıradaki" konudan başla (29.09 itibarıyla konular_02.jsonl satır 58, s2_g108_türk),
+   dosya bitince konular_03.jsonl, konular_04.jsonl ... sırayla.
    ATLA: bitti_konular.txt'deki anahtarlar, konular_01 satır 1–57 (1–2 ve 48–57 pilotlarda yapıldı;
    3–47 ilk turda başka yerde yapılmış VARSAYILIYOR — üretme).
    Başka çıktılarda (cikti/*.jsonl) zaten GEÇMİŞ kaydı olan konuyu tekrar yazma.
