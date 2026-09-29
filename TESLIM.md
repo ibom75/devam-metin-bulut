@@ -167,3 +167,25 @@ OTURUM SONU: son konu s2_g144_türk, sıradaki s2_g145_haya (girdi/konular_03.js
 | 13 | konular_03 satır 98–100 (s2_g163_türk, s2_g164_mate, s2_g164_türk) + konular_04 satır 1–17 (s2_g165_mate … s2_g174_mate) (20 konu) | 60 | 60 / 0 / 0 | 10:20 | İki koşu: `…_13.jsonl girdi/konular_03.jsonl` → gecen 9 · kalan 51 (51'in hepsi "anahtar girdide yok" = konular_04 kayıtları); `…_13.jsonl girdi/konular_04.jsonl` → gecen 51 · kalan 9 (9'u da "anahtar girdide yok"). Parçanın 60 kaydı: 60 geçen, 0 kalan, 0 eksik. Not: girdide g168 yok. |
 | 14 | konular_04 satır 18–37: s2_g174_türk … s3_g4_haya (20 konu) | 60 | 60 / 0 / 0 | 10:36 | ilk kendi_kontrol koşusunda 60/60. Betiğin `eksik 240`'ı dosyadaki diğer 80 konu. 3. sınıf konuları burada başladı. **Girdi notu:** fen anahtarlarının sonunda boşluk var (`"s3_g1_fen "`, `"s3_g2_fen "` …); şema "anahtar birebir" dediği için çıktıda da boşluklu yazıldı (kontrol betiği de böyle eşleştiriyor). Kapıda/ürün birleştirmede `strip()` yapılıyorsa buna dikkat. |
 | 15 | konular_04 satır 38–57: s3_g4_mate … s3_g10_haya (20 konu) | 60 | 60 / 0 / 0 | 10:52 | ilk kendi_kontrol koşusunda 60/60. Betiğin `eksik 240`'ı dosyadaki diğer 80 konu. Not: girdide s3_g6 yok (g5 → g7); fen anahtarları yine sonda boşluklu. |
+| **toplam (oturum 3, 5 parça)** | 100 konu | **300** | **300 / 0 / 0** | | Tüm `cikti/*.jsonl`: 936 kayıt, (anahtar, tür) tekrarı yok. Son kontrol: 11, 12, 14, 15 yeniden 60/0; 13 iki girdiyle 9+51 = 60. |
+
+## Oturum 3 notları
+- Resmî `kendi_kontrol.py` yeniden koşu hakkı hiçbir parçada kullanılmadı; KALDI kaydı yok. Eşikler ve betik değiştirilmedi.
+- Taslak aşamasında (kendi_kontrol'den önce) çok sayıda cümle 12 sözcük altındaydı; taslak sayacıyla bulunup uzatıldı.
+  Bu uzatmaların bir kısmı "dikkatle, sırayla, tek tek, yüksek sesle" türü zarf dolgusudur — kalite kapısında akış kontrolü önerilir.
+- Bir cümle `Dikkat …` ile başlıyordu (DK1 dolgu kalıbı); oran eşiğin çok altında olsa da yeniden yazıldı.
+- **Girdi tuhaflığı:** `konular_04`'teki fen anahtarları sonda boşluklu (`"s3_g1_fen "` …). Şema "birebir" dediği için öyle yazıldı.
+- Girdide atlanan gün numaraları (g147, g158, g168, s3_g6) girdiden kaynaklı; eksik üretim değil.
+
+## Bilinen riskler (oturum 3, kapıda bakılmalı)
+- Yalnız biçim kontrolü: olgu ve altyazı kapılarından geçmedi.
+- Kalıp tekrar: d1 "Bu alıştırmada … / … parmağını kaldırarak … cümlesini söyle", d3 "Bu kısa tekrarda … / Pekiştirme sorusu bir/iki/üç … / Kısaca özetlersek …" bütün kayıtlarda aynı.
+  Aynı konunun 3 günlük sürümlerinde (ör. g146/g148/g149 yaz güvenliği, g153–g155 örüntü) örnekler kısmen örtüşüyor.
+- Türkçe yazım/noktalama hata konularında (g157, g159) **bilerek yanlış yazılmış örnekler** var: `geldinmi`, `gidecem`, `bende geldim`,
+  `Ahmetin`, `ayşe`, `gelirmisin`. Yazım denetimi yapan bir kapı bunları hata sayabilir; bağlamları "yanlış örnek" olarak kurulu.
+- Olgu hassasiyeti olan yerler: 7×8=56; kutup ayısının kalın kürk ve yağ tabakası; penguenin uçamayıp iyi yüzmesi; arıların çiçek
+  özünden bal yapması; uğur böceğinin kırmızı-siyah benekli olması; suyun ısınınca buhar olması; ılık/soğuk su donma örneğinde
+  yalnız "soğuk su önce dondu" gözlemi anlatıldı (genel kural iddiası yok). Yıl, tarih, istatistik yazılmadı.
+- Matematik örnekleri elle hesaplandı (toplama/çıkarma/eldeli/ödünçlü, çarpma, bölme-kalan); otomatik doğrulama yok.
+
+OTURUM SONU: son konu s3_g10_haya, sıradaki s3_g10_mate (girdi/konular_04.jsonl satır 58)
