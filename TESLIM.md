@@ -112,3 +112,14 @@ Betiğin son satırındaki `eksik 270`, bu 10 konu dışındaki 90 konunun kayı
 - "5N1K" başlıklı kayıtlarda "5N1K" yazımı seslendirmede ("beş en bir ka") sorun çıkarabilir.
 
 OTURUM SONU: son konu s2_g108_mate, sıradaki s2_g108_türk (girdi/konular_02.jsonl satır 58)
+
+---
+
+# TAM KOŞU — oturum 2 (29.09.2026, BULUT_TAM_KOSU.md)
+
+- Başlangıç: `git fetch origin master && git merge origin/master` → güncel. Devam noktası: s2_g108_türk (konular_02 satır 58).
+- Yöntem önceki oturumla aynı: taslak kendi sayacımla ölçüldü, `kendi_kontrol.py` parça başına koşuldu; eşikler ve betik değiştirilmedi.
+
+| parça | konu aralığı | yazılan kayıt | gecen / kalan / eksik | saat (UTC) | not |
+|---|---|---|---|---|---|
+| 06 | konular_02 satır 58–77: s2_g108_türk … s2_g115_haya (20 konu) | 60 | 60 / 0 / 0 | 05:18 | ilk kendi_kontrol koşusunda 60/60. Betiğin `eksik 240`'ı dosyadaki diğer 80 konu. |
