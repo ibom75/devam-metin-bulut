@@ -1,0 +1,572 @@
+[
+ {
+  "parca": 1,
+  "dosya": "parca_001.jsonl",
+  "konu": 20,
+  "ilk": "s3_g40_mate",
+  "son": "s3_g46_haya",
+  "kaynak": [
+   "konular_05.jsonl:58"
+  ]
+ },
+ {
+  "parca": 2,
+  "dosya": "parca_002.jsonl",
+  "konu": 20,
+  "ilk": "s3_g46_mate",
+  "son": "s3_g52_haya",
+  "kaynak": [
+   "konular_05.jsonl:78"
+  ]
+ },
+ {
+  "parca": 3,
+  "dosya": "parca_003.jsonl",
+  "konu": 20,
+  "ilk": "s3_g52_mate",
+  "son": "s3_g58_haya",
+  "kaynak": [
+   "konular_05.jsonl:100"
+  ]
+ },
+ {
+  "parca": 4,
+  "dosya": "parca_004.jsonl",
+  "konu": 20,
+  "ilk": "s3_g58_mate",
+  "son": "s3_g64_haya",
+  "kaynak": [
+   "konular_06.jsonl:18"
+  ]
+ },
+ {
+  "parca": 5,
+  "dosya": "parca_005.jsonl",
+  "konu": 20,
+  "ilk": "s3_g64_mate",
+  "son": "s3_g70_haya",
+  "kaynak": [
+   "konular_06.jsonl:38"
+  ]
+ },
+ {
+  "parca": 6,
+  "dosya": "parca_006.jsonl",
+  "konu": 20,
+  "ilk": "s3_g70_mate",
+  "son": "s3_g76_haya",
+  "kaynak": [
+   "konular_06.jsonl:58"
+  ]
+ },
+ {
+  "parca": 7,
+  "dosya": "parca_007.jsonl",
+  "konu": 20,
+  "ilk": "s3_g76_mate",
+  "son": "s3_g82_haya",
+  "kaynak": [
+   "konular_06.jsonl:78"
+  ]
+ },
+ {
+  "parca": 8,
+  "dosya": "parca_008.jsonl",
+  "konu": 20,
+  "ilk": "s3_g82_mate",
+  "son": "s3_g88_haya",
+  "kaynak": [
+   "konular_06.jsonl:100"
+  ]
+ },
+ {
+  "parca": 9,
+  "dosya": "parca_009.jsonl",
+  "konu": 20,
+  "ilk": "s3_g88_mate",
+  "son": "s3_g94_haya",
+  "kaynak": [
+   "konular_07.jsonl:18"
+  ]
+ },
+ {
+  "parca": 10,
+  "dosya": "parca_010.jsonl",
+  "konu": 20,
+  "ilk": "s3_g94_mate",
+  "son": "s3_g100_haya",
+  "kaynak": [
+   "konular_07.jsonl:38"
+  ]
+ },
+ {
+  "parca": 11,
+  "dosya": "parca_011.jsonl",
+  "konu": 20,
+  "ilk": "s3_g100_mate",
+  "son": "s3_g106_haya",
+  "kaynak": [
+   "konular_07.jsonl:58"
+  ]
+ },
+ {
+  "parca": 12,
+  "dosya": "parca_012.jsonl",
+  "konu": 20,
+  "ilk": "s3_g106_mate",
+  "son": "s3_g112_haya",
+  "kaynak": [
+   "konular_07.jsonl:78"
+  ]
+ },
+ {
+  "parca": 13,
+  "dosya": "parca_013.jsonl",
+  "konu": 20,
+  "ilk": "s3_g112_mate",
+  "son": "s3_g118_haya",
+  "kaynak": [
+   "konular_07.jsonl:100"
+  ]
+ },
+ {
+  "parca": 14,
+  "dosya": "parca_014.jsonl",
+  "konu": 20,
+  "ilk": "s3_g118_mate",
+  "son": "s3_g124_haya",
+  "kaynak": [
+   "konular_08.jsonl:18"
+  ]
+ },
+ {
+  "parca": 15,
+  "dosya": "parca_015.jsonl",
+  "konu": 20,
+  "ilk": "s3_g124_mate",
+  "son": "s3_g129_haya",
+  "kaynak": [
+   "konular_08.jsonl:38"
+  ]
+ },
+ {
+  "parca": 16,
+  "dosya": "parca_016.jsonl",
+  "konu": 20,
+  "ilk": "s3_g129_mate",
+  "son": "s3_g135_haya",
+  "kaynak": [
+   "konular_08.jsonl:58"
+  ]
+ },
+ {
+  "parca": 17,
+  "dosya": "parca_017.jsonl",
+  "konu": 20,
+  "ilk": "s3_g135_mate",
+  "son": "s3_g146_türk",
+  "kaynak": [
+   "konular_08.jsonl:78"
+  ]
+ },
+ {
+  "parca": 18,
+  "dosya": "parca_018.jsonl",
+  "konu": 20,
+  "ilk": "s3_g147_mate",
+  "son": "s3_g158_türk",
+  "kaynak": [
+   "konular_08.jsonl:100"
+  ]
+ },
+ {
+  "parca": 19,
+  "dosya": "parca_019.jsonl",
+  "konu": 20,
+  "ilk": "s3_g159_mate",
+  "son": "s3_g170_türk",
+  "kaynak": [
+   "konular_09.jsonl:18"
+  ]
+ },
+ {
+  "parca": 20,
+  "dosya": "parca_020.jsonl",
+  "konu": 20,
+  "ilk": "s3_g171_mate",
+  "son": "s4_g2_türk",
+  "kaynak": [
+   "konular_09.jsonl:38"
+  ]
+ },
+ {
+  "parca": 21,
+  "dosya": "parca_021.jsonl",
+  "konu": 20,
+  "ilk": "s4_g3_fen ",
+  "son": "s4_g11_mate",
+  "kaynak": [
+   "konular_09.jsonl:58"
+  ]
+ },
+ {
+  "parca": 22,
+  "dosya": "parca_022.jsonl",
+  "konu": 20,
+  "ilk": "s4_g11_türk",
+  "son": "s4_g19_fen ",
+  "kaynak": [
+   "konular_09.jsonl:78"
+  ]
+ },
+ {
+  "parca": 23,
+  "dosya": "parca_023.jsonl",
+  "konu": 20,
+  "ilk": "s4_g19_mate",
+  "son": "s4_g27_türk",
+  "kaynak": [
+   "konular_09.jsonl:100"
+  ]
+ },
+ {
+  "parca": 24,
+  "dosya": "parca_024.jsonl",
+  "konu": 20,
+  "ilk": "s4_g28_fen ",
+  "son": "s4_g35_mate",
+  "kaynak": [
+   "konular_10.jsonl:18"
+  ]
+ },
+ {
+  "parca": 25,
+  "dosya": "parca_025.jsonl",
+  "konu": 20,
+  "ilk": "s4_g35_türk",
+  "son": "s4_g44_fen ",
+  "kaynak": [
+   "konular_10.jsonl:38"
+  ]
+ },
+ {
+  "parca": 26,
+  "dosya": "parca_026.jsonl",
+  "konu": 20,
+  "ilk": "s4_g44_mate",
+  "son": "s4_g52_türk",
+  "kaynak": [
+   "konular_10.jsonl:58"
+  ]
+ },
+ {
+  "parca": 27,
+  "dosya": "parca_027.jsonl",
+  "konu": 20,
+  "ilk": "s4_g53_fen ",
+  "son": "s4_g64_türk",
+  "kaynak": [
+   "konular_10.jsonl:78"
+  ]
+ },
+ {
+  "parca": 28,
+  "dosya": "parca_028.jsonl",
+  "konu": 20,
+  "ilk": "s4_g65_fen ",
+  "son": "s4_g73_mate",
+  "kaynak": [
+   "konular_11.jsonl:10"
+  ]
+ },
+ {
+  "parca": 29,
+  "dosya": "parca_029.jsonl",
+  "konu": 20,
+  "ilk": "s4_g73_türk",
+  "son": "s4_g81_fen ",
+  "kaynak": [
+   "konular_11.jsonl:28"
+  ]
+ },
+ {
+  "parca": 30,
+  "dosya": "parca_030.jsonl",
+  "konu": 20,
+  "ilk": "s4_g81_mate",
+  "son": "s4_g89_türk",
+  "kaynak": [
+   "konular_11.jsonl:48"
+  ]
+ },
+ {
+  "parca": 31,
+  "dosya": "parca_031.jsonl",
+  "konu": 20,
+  "ilk": "s4_g90_fen ",
+  "son": "s4_g98_mate",
+  "kaynak": [
+   "konular_11.jsonl:68"
+  ]
+ },
+ {
+  "parca": 32,
+  "dosya": "parca_032.jsonl",
+  "konu": 20,
+  "ilk": "s4_g98_türk",
+  "son": "s4_g106_fen ",
+  "kaynak": [
+   "konular_11.jsonl:100"
+  ]
+ },
+ {
+  "parca": 33,
+  "dosya": "parca_033.jsonl",
+  "konu": 20,
+  "ilk": "s4_g106_mate",
+  "son": "s4_g114_türk",
+  "kaynak": [
+   "konular_12.jsonl:10"
+  ]
+ },
+ {
+  "parca": 34,
+  "dosya": "parca_034.jsonl",
+  "konu": 20,
+  "ilk": "s4_g115_fen ",
+  "son": "s4_g122_mate",
+  "kaynak": [
+   "konular_12.jsonl:28"
+  ]
+ },
+ {
+  "parca": 35,
+  "dosya": "parca_035.jsonl",
+  "konu": 20,
+  "ilk": "s4_g122_türk",
+  "son": "s4_g131_fen ",
+  "kaynak": [
+   "konular_12.jsonl:48"
+  ]
+ },
+ {
+  "parca": 36,
+  "dosya": "parca_036.jsonl",
+  "konu": 20,
+  "ilk": "s4_g131_mate",
+  "son": "s4_g141_türk",
+  "kaynak": [
+   "konular_12.jsonl:68"
+  ]
+ },
+ {
+  "parca": 37,
+  "dosya": "parca_037.jsonl",
+  "konu": 20,
+  "ilk": "s4_g142_mate",
+  "son": "s4_g154_türk",
+  "kaynak": [
+   "konular_12.jsonl:100"
+  ]
+ },
+ {
+  "parca": 38,
+  "dosya": "parca_038.jsonl",
+  "konu": 20,
+  "ilk": "s4_g155_mate",
+  "son": "s4_g166_türk",
+  "kaynak": [
+   "konular_13.jsonl:10"
+  ]
+ },
+ {
+  "parca": 39,
+  "dosya": "parca_039.jsonl",
+  "konu": 20,
+  "ilk": "s4_g167_mate",
+  "son": "s4_g178_türk",
+  "kaynak": [
+   "konular_13.jsonl:28"
+  ]
+ },
+ {
+  "parca": 40,
+  "dosya": "parca_040.jsonl",
+  "konu": 20,
+  "ilk": "s5_g1_fen ",
+  "son": "s5_g10_mate",
+  "kaynak": [
+   "konular_13.jsonl:48"
+  ]
+ },
+ {
+  "parca": 41,
+  "dosya": "parca_041.jsonl",
+  "konu": 20,
+  "ilk": "s5_g10_türk",
+  "son": "s5_g20_fen ",
+  "kaynak": [
+   "konular_13.jsonl:68"
+  ]
+ },
+ {
+  "parca": 42,
+  "dosya": "parca_042.jsonl",
+  "konu": 20,
+  "ilk": "s5_g20_mate",
+  "son": "s5_g29_türk",
+  "kaynak": [
+   "konular_13.jsonl:100"
+  ]
+ },
+ {
+  "parca": 43,
+  "dosya": "parca_043.jsonl",
+  "konu": 20,
+  "ilk": "s5_g31_fen ",
+  "son": "s5_g40_mate",
+  "kaynak": [
+   "konular_14.jsonl:10"
+  ]
+ },
+ {
+  "parca": 44,
+  "dosya": "parca_044.jsonl",
+  "konu": 20,
+  "ilk": "s5_g40_türk",
+  "son": "s5_g50_fen ",
+  "kaynak": [
+   "konular_14.jsonl:28"
+  ]
+ },
+ {
+  "parca": 45,
+  "dosya": "parca_045.jsonl",
+  "konu": 20,
+  "ilk": "s5_g50_mate",
+  "son": "s5_g59_türk",
+  "kaynak": [
+   "konular_14.jsonl:48"
+  ]
+ },
+ {
+  "parca": 46,
+  "dosya": "parca_046.jsonl",
+  "konu": 20,
+  "ilk": "s5_g60_fen ",
+  "son": "s5_g69_mate",
+  "kaynak": [
+   "konular_14.jsonl:68"
+  ]
+ },
+ {
+  "parca": 47,
+  "dosya": "parca_047.jsonl",
+  "konu": 20,
+  "ilk": "s5_g69_türk",
+  "son": "s5_g80_fen ",
+  "kaynak": [
+   "konular_14.jsonl:100"
+  ]
+ },
+ {
+  "parca": 48,
+  "dosya": "parca_048.jsonl",
+  "konu": 20,
+  "ilk": "s5_g80_mate",
+  "son": "s5_g88_türk",
+  "kaynak": [
+   "konular_15.jsonl:10"
+  ]
+ },
+ {
+  "parca": 49,
+  "dosya": "parca_049.jsonl",
+  "konu": 20,
+  "ilk": "s5_g90_fen ",
+  "son": "s5_g99_mate",
+  "kaynak": [
+   "konular_15.jsonl:28"
+  ]
+ },
+ {
+  "parca": 50,
+  "dosya": "parca_050.jsonl",
+  "konu": 20,
+  "ilk": "s5_g99_türk",
+  "son": "s5_g110_fen ",
+  "kaynak": [
+   "konular_15.jsonl:48"
+  ]
+ },
+ {
+  "parca": 51,
+  "dosya": "parca_051.jsonl",
+  "konu": 20,
+  "ilk": "s5_g110_mate",
+  "son": "s5_g119_türk",
+  "kaynak": [
+   "konular_15.jsonl:68"
+  ]
+ },
+ {
+  "parca": 52,
+  "dosya": "parca_052.jsonl",
+  "konu": 20,
+  "ilk": "s5_g120_fen ",
+  "son": "s5_g129_mate",
+  "kaynak": [
+   "konular_15.jsonl:100"
+  ]
+ },
+ {
+  "parca": 53,
+  "dosya": "parca_053.jsonl",
+  "konu": 20,
+  "ilk": "s5_g129_türk",
+  "son": "s5_g139_fen ",
+  "kaynak": [
+   "konular_16.jsonl:10"
+  ]
+ },
+ {
+  "parca": 54,
+  "dosya": "parca_054.jsonl",
+  "konu": 20,
+  "ilk": "s5_g139_mate",
+  "son": "s5_g148_türk",
+  "kaynak": [
+   "konular_16.jsonl:28"
+  ]
+ },
+ {
+  "parca": 55,
+  "dosya": "parca_055.jsonl",
+  "konu": 20,
+  "ilk": "s5_g150_fen ",
+  "son": "s5_g159_mate",
+  "kaynak": [
+   "konular_16.jsonl:48"
+  ]
+ },
+ {
+  "parca": 56,
+  "dosya": "parca_056.jsonl",
+  "konu": 20,
+  "ilk": "s5_g159_türk",
+  "son": "s5_g169_fen ",
+  "kaynak": [
+   "konular_16.jsonl:68"
+  ]
+ },
+ {
+  "parca": 57,
+  "dosya": "parca_057.jsonl",
+  "konu": 20,
+  "ilk": "s5_g169_mate",
+  "son": "s5_g178_türk",
+  "kaynak": [
+   "konular_16.jsonl:100"
+  ]
+ }
+]
