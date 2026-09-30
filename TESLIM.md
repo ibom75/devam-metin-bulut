@@ -189,3 +189,41 @@ OTURUM SONU: son konu s2_g144_türk, sıradaki s2_g145_haya (girdi/konular_03.js
 - Matematik örnekleri elle hesaplandı (toplama/çıkarma/eldeli/ödünçlü, çarpma, bölme-kalan); otomatik doğrulama yok.
 
 OTURUM SONU: son konu s3_g10_haya, sıradaki s3_g10_mate (girdi/konular_04.jsonl satır 58)
+
+---
+
+# TAM KOŞU — oturum 4 · SON TUR (29.09.2026 akşam, BULUT_TAM_KOSU.md)
+
+- Başlangıç: `git fetch origin master && git merge origin/master` → güncel. Devam noktası: s3_g10_mate (konular_04 satır 58).
+- Yöntem: taslak düz metinde yazıldı, `kendi_kontrol.denetle` + sıkı uyarılarla (hece < 830, sahne benzerliği ≥ %55, dolgu başı) ölçülüp düzeltildi; sonra `kendi_kontrol.py` parça başına koşuldu. Eşikler ve betik değiştirilmedi.
+
+| parça | konu aralığı | yazılan kayıt | gecen / kalan / eksik | saat (UTC) | not |
+|---|---|---|---|---|---|
+| 16 | konular_04 satır 58–77: s3_g10_mate … s3_g16_haya (20 konu) | 60 | 60 / 0 / 0 | 18:37 | ilk kendi_kontrol koşusunda 60/60. Betiğin `eksik 240`'ı dosyadaki diğer 80 konu. Girdide s3_g12 yok (g11 → g13); fen anahtarları sonda boşluklu, birebir yazıldı. |
+| 17 | konular_04 satır 78–97: s3_g16_mate … s3_g22_haya (20 konu) | 60 | 60 / 0 / 0 | 18:52 | ilk kendi_kontrol koşusunda 60/60. Betiğin `eksik 240`'ı dosyadaki diğer 80 konu. Girdide s3_g19 yok (g18 → g20). |
+| 18 | konular_04 satır 98–100 (s3_g22_mate, s3_g22_türk, s3_g23_fen) + konular_05 satır 1–17 (s3_g23_haya … s3_g28_haya) (20 konu) | 60 | 60 / 0 / 0 | 19:08 | İki koşu: `…_18.jsonl girdi/konular_04.jsonl` → gecen 9 · kalan 51 (51'in hepsi "anahtar girdide yok" = konular_05 kayıtları); `…_18.jsonl girdi/konular_05.jsonl` → gecen 51 · kalan 9 (9'u da "anahtar girdide yok"). Parçanın 60 kaydı: 60 geçen, 0 kalan, 0 eksik. Girdide s3_g25 yok. |
+| 19 | konular_05 satır 18–37: s3_g28_mate … s3_g34_haya (20 konu) | 60 | 60 / 0 / 0 | 19:25 | ilk kendi_kontrol koşusunda 60/60. Betiğin `eksik 240`'ı dosyadaki diğer 80 konu. Girdide s3_g31 yok. |
+| 20 | konular_05 satır 38–57: s3_g34_mate … s3_g40_haya (20 konu) | 60 | 60 / 0 / 0 | 19:40 | ilk kendi_kontrol koşusunda 60/60. Betiğin `eksik 240`'ı dosyadaki diğer 80 konu. Girdide s3_g37 yok. Konu adı `Verilmeyen toplanan ( ? + 25 = 60 )` parantez ve soru işareti içeriyor; `konu` alanına birebir kopyalandı, sahne metinlerinde parantez yok. |
+| **toplam (oturum 4, 5 parça)** | 100 konu | **300** | **300 / 0 / 0** | | Tüm `cikti/*.jsonl`: 1236 kayıt, (anahtar, tür) tekrarı yok. Son kontrol: 16, 17, 19, 20 yeniden 60/0; 18 iki girdiyle 9+51 = 60. |
+
+## Oturum 4 notları
+- Resmî `kendi_kontrol.py` yeniden koşu hakkı hiçbir parçada kullanılmadı; KALDI kaydı yok. Eşikler ve betik değiştirilmedi.
+- Taslak aşamasında çok sayıda cümle 12 sözcük altındaydı (ve birkaç sayı cümlesi 20'nin üstünde); taslak sayacıyla bulunup elle düzeltildi.
+  Uzatmaların bir kısmı "dikkatle, sırayla, tek tek, yüksek sesle, kolayca" türü zarf dolgusudur — kalite kapısında akış kontrolü önerilir.
+- Taslakta 2 kayıtta 7 sahne çıkmıştı (s3_g34_haya d1, s3_g35_mate d1); fazla sahne silindi. 2 cümle "Harika …" ile başlıyordu (DK1 kalıbı), yeniden yazıldı.
+- 1 kayıtta DK3 uyarısı (s3_g38_haya d1) vardı; konu sözcükleri ("kişilerle iletişim") eklendi.
+- Girdide atlanan gün numaraları (s3_g12, g19, g25, g31, g37) girdiden kaynaklı; eksik üretim değil. Fen anahtarları yine sonda boşluklu, birebir yazıldı.
+
+## Bilinen riskler (oturum 4, kapıda bakılmalı)
+- Yalnız biçim kontrolü: olgu ve altyazı kapılarından geçmedi.
+- Kalıp tekrar: d1 "Bu alıştırmada … / Şimdi … yüksek sesle söyle", d3 "Bu kısa tekrarda … / Pekiştirme sorusu bir/iki/üç … / Kısaca özetlersek …" bütün kayıtlarda aynı.
+  Aynı konunun 3 günlük sürümlerinde (ör. g36/g38/g39 gözlem kaydı, verilmeyen toplanan, mektup) örnekler kısmen örtüşüyor.
+- Taslak sayacımın sıkı hece uyarısı (< 830) 10 kayıtta kaldı (en düşük 805: s3_g11_mate d1); gerçek eşik 800'ün üstünde.
+- Olgu hassasiyeti olan yerler: 112 tek acil numara (ambulans, itfaiye, polis); Cumhuriyet'in ilanı 29 Ekim 1923, 19 Mayıs'ta Samsun'a çıkış;
+  23 Nisan'ın çocuklara armağan edilmesi; Romen rakamı kuralları (IIII değil IV); kurbağa döngüsü yumurta–iribaş–kurbağa; kelebek yumurta–tırtıl–pupa–kelebek;
+  mantarın bitki olmadığı; "önce sola, sonra sağa, tekrar sola bak" (sağdan akan trafik); kitaplarda tek sayfaların sağda olması; 20 saniye el yıkama; bezelye tanesi kadar diş macunu.
+- Matematik örneklerinin hepsi elle hesaplandı (üç basamaklı toplama/çıkarma, yuvarlama, tahminî işlem, verilmeyen toplanan, tablo toplamları); otomatik doğrulama yok.
+- Noktalama konularında (g11–g14_türk) örnek soru/ünlem cümleleri, cümle bölmeyi bozmamak için "?" ve "!" olmadan yazıldı; tırnak örnekleri iç noktasız yazıldı.
+- s3_g14_türk d3'te bilerek kapanmamış tırnak örneği var (`"Oyuncağımı ver dedi`): "hata bul" alıştırması.
+
+OTURUM SONU: son konu s3_g40_haya, sıradaki s3_g40_mate (girdi/konular_05.jsonl satır 58)
