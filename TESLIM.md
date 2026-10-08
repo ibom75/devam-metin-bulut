@@ -313,3 +313,4 @@ OTURUM SONU: son konu s3_g40_haya, sıradaki s3_g40_mate (girdi/konular_05.jsonl
 | yerel 017 | yerel/parca_017.jsonl (20 konu) | 60 | gercek kapi 60 / 0 / 0 | 08.10 05:43 | Claude Code yerel ajan |
 | yerel 032 | yerel/parca_032.jsonl (20 konu) | 60 | gercek kapi 60 / 0 / 0 | 08.10 06:28 | Claude Code yerel ajan |
 | yerel 131 | yerel/parca_131.jsonl (20 konu) | 60 | gercek kapi 60 / 0 / 0 | 08.10 06:47 | Claude Code yerel ajan |
+| yerel 116 | yerel/parca_116.jsonl (20 konu) | 60 | gercek kapi 60 / 0 / 0 | 08.10 06:49 | Claude Code yerel ajan |
